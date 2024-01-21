@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,6 +5,10 @@
         <link rel="stylesheet" href="login.css">
     </head> 
     <body class="contain_all">
+    <?php 
+include("connection.php");
+?>
+
         <dev class="contain">
         <h4 class="welcom"><u><b>WELCOME TO HELPIA USER SESSIONS</b></u></h4>
 
