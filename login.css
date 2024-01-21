@@ -1,0 +1,21 @@
+.contain_all{
+    background-color: rgb(126, 136, 73);
+
+}
+.contain{
+    margin-left: 50px;
+    width: 1150px;
+    height: 600px;
+    border-style: double;
+    border-color: black;
+    
+    }
+.welcom,.form1{
+background-color: lightseagreen;
+width: 28%;
+border-radius: 6px;
+margin: 120px auto;
+padding: 70px;
+box-shadow: 10px 10px 5px  , black
+
+}
