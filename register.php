@@ -13,5 +13,6 @@ if(isset($_POST["send"])){
     VALUES ('$fname','$lname','$email','$pass','$gen','$statu','$bdate')";
     $store=mysqli_query($conn,$que);
 }
-header("location:login.php");
+header("location:new account.php");
+echo'Helpia user account created sucessfully';
 ?>
